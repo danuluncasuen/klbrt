@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>klbrt</title>
+    <meta name="description" content="klbrt application" />
+    <link rel="icon" href="/favicon.ico" />
+    <!-- <link rel="stylesheet" href="./styles.css" /> -->
+    <meta name="theme-color" content="#0a84ff" />
+    <script src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/stompjs@2.3.3/lib/stomp.min.js"></script>
+    <script src="./script/main.js"></script>
+</head>
+<body>
+    <div id="app">
+       <textarea id="editor" oninput="sendEdit()"></textarea>
+    </div>
+</body>
+</html>
